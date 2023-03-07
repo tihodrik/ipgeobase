@@ -19,6 +19,8 @@ GEM
     minitest (5.18.0)
     nokogiri (1.14.2-x86_64-darwin)
       racc (~> 1.4)
+    nokogiri (1.14.2-x86_64-linux)
+      racc (~> 1.4)
     nokogiri-happymapper (0.9.0)
       nokogiri (~> 1.5)
     parallel (1.22.1)
@@ -57,6 +59,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-19
+  x86_64-linux
 
 DEPENDENCIES
   ipgeobase!
