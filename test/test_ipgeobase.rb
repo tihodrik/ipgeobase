@@ -16,7 +16,8 @@ class TestIpgeobase < Minitest::Test
           'Accept-Encoding' => 'gzip;q=1.0,deflate;q=0.6,identity;q=0.3',
           'Host' => 'ip-api.com',
           'User-Agent' => 'Ruby'
-        })
+        }
+      )
       .to_return(status: 200, body: '<?xml version=\'1.0\' encoding=\'UTF-8\'?>
                                     <query>
                                       <status>success</status>
