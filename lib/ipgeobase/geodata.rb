@@ -3,7 +3,7 @@
 require 'happymapper'
 
 module Ipgeobase
-  class Metadata
+  class Geodata
     include HappyMapper
 
     tag 'query'
